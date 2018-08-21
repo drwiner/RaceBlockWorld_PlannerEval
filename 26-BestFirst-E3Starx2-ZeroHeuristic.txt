@@ -1,0 +1,106 @@
+problem	26
+selection	E3Starx2-ZeroHeuristic
+search	BestFirst
+runtime	604556
+opened	91562
+expanded	1777
+primitives	16
+decomps	2
+composites	2
+hdepth	7
+
+
+(DummyInit)-8774471
+( Full h275 Eye )-8774477
+( Long h275 Eye )-8774480
+( Full h275 Eye )-8774478
+( Waist h0 Eye )-8774481
+( Full h315 Eye )-8774479
+(PickUp red blockA L2 L2A)-8774473
+(Look red L2 L0)-8774474
+(Race red L2 L4)-8774475
+(Race orange L0 L2)-8774476
+(DummyGoal)-8774472
+(DummyInit)-8772764
+( Full h275 Eye )-8772767
+( Full h315 High )-8772768
+(PutDown red blockA L2 L2A)-8772766
+(DummyGoal)-8772765
+
+
+Composites:
+
+(MatchPutDown red blockA L2 L2A)-8772763
+(BlockGetaway red orange blockA L2 L0 L2A L4)-8774470
+
+Orderings:
+
+((initial)-8772719, (goal)-8772720)
+((initial)-8772719, (DummyInit)-8772764)
+((DummyInit)-8772764, (goal)-8772720)
+((initial)-8772719, (DummyGoal)-8772765)
+((DummyGoal)-8772765, (goal)-8772720)
+((DummyInit)-8772764, (DummyGoal)-8772765)
+((PutDown red blockA L2 L2A)-8772766, (DummyGoal)-8772765)
+((DummyInit)-8772764, (PutDown red blockA L2 L2A)-8772766)
+((initial)-8772719, (PutDown red blockA L2 L2A)-8772766)
+((PutDown red blockA L2 L2A)-8772766, (goal)-8772720)
+(( Full h275 Eye )-8772767, (DummyGoal)-8772765)
+((DummyInit)-8772764, ( Full h275 Eye )-8772767)
+((initial)-8772719, ( Full h275 Eye )-8772767)
+(( Full h275 Eye )-8772767, (goal)-8772720)
+(( Full h315 High )-8772768, (DummyGoal)-8772765)
+((DummyInit)-8772764, ( Full h315 High )-8772768)
+((initial)-8772719, ( Full h315 High )-8772768)
+(( Full h315 High )-8772768, (goal)-8772720)
+(( Full h275 Eye )-8772767, ( Full h315 High )-8772768)
+((initial)-8772719, (DummyInit)-8774471)
+((DummyInit)-8774471, (goal)-8772720)
+((initial)-8772719, (DummyGoal)-8774472)
+((DummyGoal)-8774472, (goal)-8772720)
+((DummyInit)-8774471, (DummyGoal)-8774472)
+((PickUp red blockA L2 L2A)-8774473, (DummyGoal)-8774472)
+((DummyInit)-8774471, (PickUp red blockA L2 L2A)-8774473)
+((initial)-8772719, (PickUp red blockA L2 L2A)-8774473)
+((PickUp red blockA L2 L2A)-8774473, (goal)-8772720)
+((Look red L2 L0)-8774474, (DummyGoal)-8774472)
+((DummyInit)-8774471, (Look red L2 L0)-8774474)
+((initial)-8772719, (Look red L2 L0)-8774474)
+((Look red L2 L0)-8774474, (goal)-8772720)
+((Race red L2 L4)-8774475, (DummyGoal)-8774472)
+((DummyInit)-8774471, (Race red L2 L4)-8774475)
+((initial)-8772719, (Race red L2 L4)-8774475)
+((Race red L2 L4)-8774475, (goal)-8772720)
+((Race orange L0 L2)-8774476, (DummyGoal)-8774472)
+((DummyInit)-8774471, (Race orange L0 L2)-8774476)
+((initial)-8772719, (Race orange L0 L2)-8774476)
+((Race orange L0 L2)-8774476, (goal)-8772720)
+(( Full h275 Eye )-8774477, (DummyGoal)-8774472)
+((DummyInit)-8774471, ( Full h275 Eye )-8774477)
+((initial)-8772719, ( Full h275 Eye )-8774477)
+(( Full h275 Eye )-8774477, (goal)-8772720)
+(( Full h275 Eye )-8774478, (DummyGoal)-8774472)
+((DummyInit)-8774471, ( Full h275 Eye )-8774478)
+((initial)-8772719, ( Full h275 Eye )-8774478)
+(( Full h275 Eye )-8774478, (goal)-8772720)
+(( Full h315 Eye )-8774479, (DummyGoal)-8774472)
+((DummyInit)-8774471, ( Full h315 Eye )-8774479)
+((initial)-8772719, ( Full h315 Eye )-8774479)
+(( Full h315 Eye )-8774479, (goal)-8772720)
+(( Long h275 Eye )-8774480, (DummyGoal)-8774472)
+((DummyInit)-8774471, ( Long h275 Eye )-8774480)
+((initial)-8772719, ( Long h275 Eye )-8774480)
+(( Long h275 Eye )-8774480, (goal)-8772720)
+(( Waist h0 Eye )-8774481, (DummyGoal)-8774472)
+((DummyInit)-8774471, ( Waist h0 Eye )-8774481)
+((initial)-8772719, ( Waist h0 Eye )-8774481)
+(( Waist h0 Eye )-8774481, (goal)-8772720)
+((Look red L2 L0)-8774474, (Race red L2 L4)-8774475)
+((Race red L2 L4)-8774475, (Race orange L0 L2)-8774476)
+(( Full h275 Eye )-8774478, ( Waist h0 Eye )-8774481)
+(( Waist h0 Eye )-8774481, ( Full h315 Eye )-8774479)
+(( Long h275 Eye )-8774480, ( Full h275 Eye )-8774478)
+(( Full h275 Eye )-8774477, ( Long h275 Eye )-8774480)
+((PickUp red blockA L2 L2A)-8774473, (Look red L2 L0)-8774474)
+((DummyGoal)-8774472, (DummyInit)-8772764)
+((PickUp red blockA L2 L2A)-8774473, (DummyInit)-8772764)

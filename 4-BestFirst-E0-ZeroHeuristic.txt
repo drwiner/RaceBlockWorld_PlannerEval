@@ -1,0 +1,108 @@
+problem	4
+selection	E0-ZeroHeuristic
+search	BestFirst
+runtime	600160
+opened	121599
+expanded	6670
+primitives	17
+decomps	4
+composites	4
+hdepth	5
+
+
+(DummyInit)-2973579
+( Full h275 Eye )-2973582
+(PickUp blue blockA L0 L0A)-2973581
+(DummyGoal)-2973580
+(DummyInit)-3037801
+( Full h275 Eye )-3037804
+( Full h315 High )-3037805
+(PutDown blue blockB L1 L1A)-3037803
+(DummyGoal)-3037802
+(DummyInit)-2976169
+( Full h275 Eye )-2976172
+(PickUp blue blockA L3 L3A)-2976171
+(DummyGoal)-2976170
+(DummyInit)-2973348
+( Full h85 Eye )-2973351
+(PutDown blue blockA L3 L3A)-2973350
+(DummyGoal)-2973349
+
+
+Composites:
+
+(SinglePutdown blue blockA L3 L3A)-2973347
+(SinglePickup blue blockA L0 L0A)-2973578
+(SinglePickup blue blockA L3 L3A)-2976168
+(MatchPutDown blue blockB L1 L1A)-3037800
+
+Orderings:
+
+((initial)-2973345, (goal)-2973346)
+((initial)-2973345, (DummyInit)-2973348)
+((DummyInit)-2973348, (goal)-2973346)
+((initial)-2973345, (DummyGoal)-2973349)
+((DummyGoal)-2973349, (goal)-2973346)
+((DummyInit)-2973348, (DummyGoal)-2973349)
+((PutDown blue blockA L3 L3A)-2973350, (DummyGoal)-2973349)
+((DummyInit)-2973348, (PutDown blue blockA L3 L3A)-2973350)
+((initial)-2973345, (PutDown blue blockA L3 L3A)-2973350)
+((PutDown blue blockA L3 L3A)-2973350, (goal)-2973346)
+(( Full h85 Eye )-2973351, (DummyGoal)-2973349)
+((DummyInit)-2973348, ( Full h85 Eye )-2973351)
+((initial)-2973345, ( Full h85 Eye )-2973351)
+(( Full h85 Eye )-2973351, (goal)-2973346)
+((initial)-2973345, (DummyInit)-2973579)
+((DummyInit)-2973579, (goal)-2973346)
+((initial)-2973345, (DummyGoal)-2973580)
+((DummyGoal)-2973580, (goal)-2973346)
+((DummyInit)-2973579, (DummyGoal)-2973580)
+((PickUp blue blockA L0 L0A)-2973581, (DummyGoal)-2973580)
+((DummyInit)-2973579, (PickUp blue blockA L0 L0A)-2973581)
+((initial)-2973345, (PickUp blue blockA L0 L0A)-2973581)
+((PickUp blue blockA L0 L0A)-2973581, (goal)-2973346)
+(( Full h275 Eye )-2973582, (DummyGoal)-2973580)
+((DummyInit)-2973579, ( Full h275 Eye )-2973582)
+((initial)-2973345, ( Full h275 Eye )-2973582)
+(( Full h275 Eye )-2973582, (goal)-2973346)
+((DummyGoal)-2973580, (DummyInit)-2973348)
+((initial)-2973345, (DummyInit)-2976169)
+((DummyInit)-2976169, (goal)-2973346)
+((initial)-2973345, (DummyGoal)-2976170)
+((DummyGoal)-2976170, (goal)-2973346)
+((DummyInit)-2976169, (DummyGoal)-2976170)
+((PickUp blue blockA L3 L3A)-2976171, (DummyGoal)-2976170)
+((DummyInit)-2976169, (PickUp blue blockA L3 L3A)-2976171)
+((initial)-2973345, (PickUp blue blockA L3 L3A)-2976171)
+((PickUp blue blockA L3 L3A)-2976171, (goal)-2973346)
+(( Full h275 Eye )-2976172, (DummyGoal)-2976170)
+((DummyInit)-2976169, ( Full h275 Eye )-2976172)
+((initial)-2973345, ( Full h275 Eye )-2976172)
+(( Full h275 Eye )-2976172, (goal)-2973346)
+((DummyGoal)-2976170, (DummyInit)-2973348)
+((PickUp blue blockA L0 L0A)-2973581, (DummyInit)-2976169)
+((DummyInit)-2973579, (DummyInit)-2976169)
+((initial)-2973345, (DummyInit)-3037801)
+((DummyInit)-3037801, (goal)-2973346)
+((initial)-2973345, (DummyGoal)-3037802)
+((DummyGoal)-3037802, (goal)-2973346)
+((DummyInit)-3037801, (DummyGoal)-3037802)
+((PutDown blue blockB L1 L1A)-3037803, (DummyGoal)-3037802)
+((DummyInit)-3037801, (PutDown blue blockB L1 L1A)-3037803)
+((initial)-2973345, (PutDown blue blockB L1 L1A)-3037803)
+((PutDown blue blockB L1 L1A)-3037803, (goal)-2973346)
+(( Full h275 Eye )-3037804, (DummyGoal)-3037802)
+((DummyInit)-3037801, ( Full h275 Eye )-3037804)
+((initial)-2973345, ( Full h275 Eye )-3037804)
+(( Full h275 Eye )-3037804, (goal)-2973346)
+(( Full h315 High )-3037805, (DummyGoal)-3037802)
+((DummyInit)-3037801, ( Full h315 High )-3037805)
+((initial)-2973345, ( Full h315 High )-3037805)
+(( Full h315 High )-3037805, (goal)-2973346)
+(( Full h275 Eye )-3037804, ( Full h315 High )-3037805)
+((DummyGoal)-3037802, (DummyInit)-2976169)
+((DummyGoal)-2973580, (DummyInit)-3037801)
+((PickUp blue blockA L0 L0A)-2973581, (DummyInit)-3037801)
+((DummyGoal)-2973580, (DummyGoal)-3037802)
+((DummyGoal)-2973580, (DummyInit)-2976169)
+((PickUp blue blockA L0 L0A)-2973581, (DummyGoal)-3037802)
