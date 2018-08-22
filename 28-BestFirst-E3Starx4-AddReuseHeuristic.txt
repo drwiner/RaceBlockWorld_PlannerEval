@@ -1,0 +1,78 @@
+problem	28
+selection	E3Starx4-AddReuseHeuristic
+search	BestFirst
+runtime	3797
+opened	756
+expanded	31
+primitives	12
+decomps	3
+composites	3
+hdepth	3
+
+
+(DummyInit)-1826827
+( Full h275 Eye )-1826830
+(PickUp orange blockA L0 L0A)-1826829
+(DummyGoal)-1826828
+(DummyInit)-1825020
+( Full h180 Eye )-1825023
+(Stroll orange L0 L3)-1825022
+(DummyGoal)-1825021
+(DummyInit)-1822918
+( Full h85 Eye )-1822921
+(PutDown orange blockA L3 L3A)-1822920
+(DummyGoal)-1822919
+
+
+Composites:
+
+(SinglePutdown orange blockA L3 L3A)-1822917
+(SingleStroll orange L0 L3)-1825019
+(SinglePickup orange blockA L0 L0A)-1826826
+
+Orderings:
+
+((initial)-1822898, (goal)-1822899)
+((initial)-1822898, (DummyInit)-1822918)
+((DummyInit)-1822918, (goal)-1822899)
+((initial)-1822898, (DummyGoal)-1822919)
+((DummyGoal)-1822919, (goal)-1822899)
+((DummyInit)-1822918, (DummyGoal)-1822919)
+((PutDown orange blockA L3 L3A)-1822920, (DummyGoal)-1822919)
+((DummyInit)-1822918, (PutDown orange blockA L3 L3A)-1822920)
+((initial)-1822898, (PutDown orange blockA L3 L3A)-1822920)
+((PutDown orange blockA L3 L3A)-1822920, (goal)-1822899)
+(( Full h85 Eye )-1822921, (DummyGoal)-1822919)
+((DummyInit)-1822918, ( Full h85 Eye )-1822921)
+((initial)-1822898, ( Full h85 Eye )-1822921)
+(( Full h85 Eye )-1822921, (goal)-1822899)
+((initial)-1822898, (DummyInit)-1825020)
+((DummyInit)-1825020, (goal)-1822899)
+((initial)-1822898, (DummyGoal)-1825021)
+((DummyGoal)-1825021, (goal)-1822899)
+((DummyInit)-1825020, (DummyGoal)-1825021)
+((Stroll orange L0 L3)-1825022, (DummyGoal)-1825021)
+((DummyInit)-1825020, (Stroll orange L0 L3)-1825022)
+((initial)-1822898, (Stroll orange L0 L3)-1825022)
+((Stroll orange L0 L3)-1825022, (goal)-1822899)
+(( Full h180 Eye )-1825023, (DummyGoal)-1825021)
+((DummyInit)-1825020, ( Full h180 Eye )-1825023)
+((initial)-1822898, ( Full h180 Eye )-1825023)
+(( Full h180 Eye )-1825023, (goal)-1822899)
+((DummyGoal)-1825021, (DummyInit)-1822918)
+((initial)-1822898, (DummyInit)-1826827)
+((DummyInit)-1826827, (goal)-1822899)
+((initial)-1822898, (DummyGoal)-1826828)
+((DummyGoal)-1826828, (goal)-1822899)
+((DummyInit)-1826827, (DummyGoal)-1826828)
+((PickUp orange blockA L0 L0A)-1826829, (DummyGoal)-1826828)
+((DummyInit)-1826827, (PickUp orange blockA L0 L0A)-1826829)
+((initial)-1822898, (PickUp orange blockA L0 L0A)-1826829)
+((PickUp orange blockA L0 L0A)-1826829, (goal)-1822899)
+(( Full h275 Eye )-1826830, (DummyGoal)-1826828)
+((DummyInit)-1826827, ( Full h275 Eye )-1826830)
+((initial)-1822898, ( Full h275 Eye )-1826830)
+(( Full h275 Eye )-1826830, (goal)-1822899)
+((DummyGoal)-1826828, (DummyInit)-1822918)
+((DummyGoal)-1826828, (Stroll orange L0 L3)-1825022)
+((DummyInit)-1826827, (Stroll orange L0 L3)-1825022)

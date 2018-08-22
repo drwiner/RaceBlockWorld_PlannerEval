@@ -1,5 +1,5 @@
 
-PROBLEMS = [str(i) for i in range(27)]
+PROBLEMS = [str(i) for i in range(38)]
 SEARCH = "BestFirst".split()
 SELECT = "E0 E3 E3Starx1 E3Starx2 E3Starx4 E3Starx6 E3Starx8 E3Starx16".split()
 HEURISTIC = "AddReuseHeuristic ZeroHeuristic NumOCsHeuristic".split()
@@ -158,12 +158,21 @@ if __name__ == "__main__":
 	for unsolved in unsolvable_probs:
 		print(unsolved)
 
+	print("\nProblems with comp solution")
 	has_comp_solution = []
 	for prob in solvable_probs:
 		solved_this_prob = [pnum for pnum in Solved if pnum.problem == prob and pnum.has_comp and pnum.solved]
 		if (len(solved_this_prob) > 0):
 			has_comp_solution.append(prob)
+			print(prob)
 
+	threshold_runtime_for_checking_problem = 620000
+	print("\nItems with runtime > {}".format(threshold_runtime_for_checking_problem))
+	for pnum in UnSolved:
+		if pnum.runtime > threshold_runtime_for_checking_problem:
+			print(pnum)
+			print("\t" + str(pnum.runtime))
+			
 
 	print("check")
 		
